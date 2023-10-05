@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,700;9..144,800&family=Montserrat:wght@100;500&family=Overpass:wght@400;700&display=swap');
+
+:root{
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --secondary: hsl(213deg, 20%, 22%);
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.card{
+    background-color: var(--VeryDarkBlue);
+    border-radius: 1rem;
+    width: 350px;
+    padding: 2rem;
+}
+.star{
+    background-color: var(--secondary);
+    width: fit-content;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+
+}
+.judul{
+    color: var(--White);
+    margin-bottom: 1rem;
+}
+
+.deskripsi{
+    color: var(--LightGrey);
+    margin-bottom: 1rem;
+    font-size: 14px;
+
+}
+
+.rating-numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+.rating-numbers span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    color: var(--LightGrey);
+    cursor: pointer;
+}
+
+.rating-numbers span:hover{
+    background-color: var(--MediumGrey);
+    color: white;
+}
+
+.submit{
+    align-items: center;
+    width :100%;
+    height: 50px;
+    font-size: 16px;
+    background-color: var(--Orange);
+    color: var(--White);
+    border-radius: 25px;
+    margin-bottom: 3rem;
+    inline-size: none;
+    border-color: var(--Orange);
+    cursor: pointer;
+
+}
+
+.submit:hover{
+ background-color: var(--White);
+ border-color: var(--White);
+ color: var(--Orange);
+}
+
+.thanks{
+    text-align: center;
+}
+
+.chip{
+    
+    background-color: var(--secondary);
+    width: fit-content;
+    margin: 1rem auto;
+    color: var(--Orange);
+    font-size: 14px;
+    padding: 0.7rem;
+    border-radius: 2rem; 
+}
+
+.tittle{
+    color: var(--White);
+}
+
+.tydeskripsi{
+    color: var(--MediumGrey);
+}
